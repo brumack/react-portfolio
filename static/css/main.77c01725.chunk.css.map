@@ -1,0 +1,1 @@
+{"version":3,"sources":["/Users/bradrumack/Projects/react-portfolio/src/Components/Projects.css","main.77c01725.chunk.css"],"names":[],"mappings":"AAAA,MACE,aCCF,CDEA,gBACE,UCCF","file":"main.77c01725.chunk.css","sourcesContent":[".card {\n  margin: 0 auto;\n}\n\n.card-img:hover {\n  opacity: 0.5;\n}",".card {\n  margin: 0 auto;\n}\n\n.card-img:hover {\n  opacity: 0.5;\n}\n"]}
