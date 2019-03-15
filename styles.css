@@ -20,7 +20,7 @@ nav {
 }
 
 .navbar-light .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   text-shadow: 1px 1px 5px #000;
 }
@@ -28,7 +28,7 @@ nav {
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: bolder;
   text-shadow: 1px 1px 5px #000;
 }
