@@ -51,7 +51,7 @@ export default [
   },
   {
     name: 'NetBot',
-    image: './images/Bitcoin.png',
+    image: './images/bitcoin.png',
     description: 'Netbot is an automated cryptocurrency trading script. Through continuous continusous statisctial analysis of price action, ' +
       'Netbot watches every single trade for specific conditions. Should those conditions occur, a buy order is placed at a specific rate and left ' +
       'for a period of time. If the order fills, a sell order is then placed at a specific rate, while the script watches for a potential stop-loss condition.',
