@@ -70,9 +70,9 @@ export default props => {
           </Card>
         </Col>
       </Row>
-      <Row className='justify-content-center'>
+      <Row className='justify-content-center' id='contact'>
         <Col md={8} xs={12}>
-          <Card id='contact' className='contact'>
+          <Card className='contact'>
             <Card.Body>
               <h4>Contact</h4>
               <hr />
