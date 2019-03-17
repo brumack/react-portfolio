@@ -1,6 +1,6 @@
 export default [
   {
-    name: 'MTB One LLC, DBA Valid Strategy',
+    name: 'MBT One LLC, DBA Valid Strategy',
     image: './images/icons/dollar.png',
     date: 'June 2018 - October 2018',
     detail: 'Software Developer',
