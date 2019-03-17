@@ -18,9 +18,9 @@ export default props => {
               <hr />
               <Card.Text>
                 I'm a <em>self-taught</em> full-stack web developer, specializing in Javascript and Javascript frameworks.
-                . Originally from Phoenix, AZ, I've called California home for a total of 4 years; Long Beach for 2 and a half
-                years beginning in 2010, and now Pasadena as of October of 2017. While I enjoy all aspects of development, I highly
-                enjoy working on the back-end, and creating and consuming APIs.
+                 Originally from Phoenix, AZ, I've called California home for a total of 4 years; Long Beach for 2 and a half
+                years beginning in 2010, and now Pasadena as of October of 2017. While I enjoy all aspects of development, I most
+                enjoy working with logic and data, and creating and consuming APIs.
               </Card.Text>
             </Card.Body>
           </Card>
