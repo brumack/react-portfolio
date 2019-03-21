@@ -11,6 +11,7 @@ const Menu = () => {
           <Nav.Link href='#projects' onClick={scrollTo}>Projects</Nav.Link>
           <Nav.Link href='#bio' onClick={scrollTo}>Bio</Nav.Link>
           <Nav.Link target='_blank' href='./Rumack-Resume-2019.pdf'>Resume</Nav.Link>
+          <Nav.Link target='_blank' href='https://github.com/brumack'>Github</Nav.Link>
           <Nav.Link target='_blank' href='https://www.linkedin.com/in/bradleyrumack/'>LinkedIn</Nav.Link>
           <Nav.Link href='#contact' onClick={scrollTo}>Contact</Nav.Link>
         </Nav>
