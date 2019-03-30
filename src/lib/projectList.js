@@ -32,7 +32,8 @@ export default [
     type: 'full',
     image: './images/USA2.png',
     description: `Sample checkout process using USAePay's sandbox API. For test cards
-     in various decline and fraud states visit https://help.usaepay.info/developer/reference/testcards/`,
+     in various decline and fraud states visit 
+     <a href='https://help.usaepay.info/developer/reference/testcards/'>https://help.usaepay.info/developer/reference/testcards/</a>`,
     slideshow: ['USA1.png', 'USA2.png', 'USA3.png', 'USA4.png'],
     live: 'https://frozen-brushlands-21326.herokuapp.com/',
     hostIcon: 'fab fa-github',
