@@ -23,7 +23,6 @@ class Projects extends React.Component {
         <Container fluid id='projects'
           className='justify-content-center'
         >
-          <FrontProjects />
           <Row className='justify-content-center'>
             {
               projectList.map(project => {
