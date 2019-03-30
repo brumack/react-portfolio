@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Container, Row, Col } from 'react-bootstrap'
 import projectList from '../lib/projectList'
 import ProjectsModal from './ProjectModal'
+import FrontProjects from './FrontProjects'
 import './Projects.css'
 
 class Projects extends React.Component {
@@ -19,9 +20,10 @@ class Projects extends React.Component {
   render() {
     return (
       <section>
-        <Container id='projects'
+        <Container fluid id='projects'
           className='justify-content-center'
         >
+          <FrontProjects />
           <Row className='justify-content-center'>
             {
               projectList.map(project => {

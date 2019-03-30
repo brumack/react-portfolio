@@ -2,6 +2,7 @@ export default [
 
   {
     name: 'Wavez',
+    type: 'full',
     image: './images/Wavez.png',
     slideshow: ['Wavez1.png', 'Wavez2.png', 'Wavez3.png', 'Wavez4.png', 'Wavez5.png'],
     description: 'Wavez is a RESTful CRUD application revolving around crowd-sourced beach info, particularly surfing conditions. Users can create ' +
@@ -15,6 +16,7 @@ export default [
   },
   {
     name: 'Real Estate Agent Site',
+    type: 'front',
     image: './images/Realty.png',
     description: 'This is an example multi-page website built for a real estate agent. I have incoprorated a few 3rd party tools, ' +
       'such as a search portal and a social media feed.',
@@ -26,7 +28,21 @@ export default [
     main: true
   },
   {
+    name: 'Payment Gateway Demo',
+    type: 'full',
+    image: './images/USA2.png',
+    description: `Sample checkout process using USAePay's sandbox API. For test cards ' +
+    'in various decline and fraud states visit https://help.usaepay.info/developer/reference/testcards/`,
+    slideshow: ['USA1.png', 'USA2.png', 'USA3.png', 'USA4.png'],
+    live: 'https://frozen-brushlands-21326.herokuapp.com/',
+    hostIcon: 'fab fa-github',
+    repo: 'https://github.com/brumack/USAePayDemo',
+    tech: ['React', 'React.js', 'Express.js', 'USAePay API', 'Semantic UI', 'HTML', 'CSS'],
+    main: true
+  },
+  {
     name: 'Portfolio',
+    type: 'front',
     image: './images/Portfolio.png',
     description: `You're looking at it!`,
     slideshow: ['Portfolio1.png'],
@@ -38,6 +54,7 @@ export default [
   },
   {
     name: 'Tetra',
+    type: 'full',
     image: './images/Tetra.png',
     description: `Tetra is a cryptocurrency portfolio manager. Users create their own accounts, and then add their own assets, or assets ` +
       `they would like to track to their dashboard. Balances for each asset can be added, and then used to calculate a total portfolio balance. ` +
@@ -51,6 +68,7 @@ export default [
   },
   {
     name: 'NetBot',
+    type: 'back',
     image: './images/bitcoin.png',
     description: 'Netbot is an automated cryptocurrency trading script. Through continuous continusous statisctial analysis of price action, ' +
       'Netbot watches every single trade for specific conditions. Should those conditions occur, a buy order is placed at a specific rate and left ' +
@@ -64,6 +82,7 @@ export default [
   },
   {
     name: 'Simon',
+    type: 'front',
     image: './images/Simon.png',
     description: `A recreation of the game Simon from the 90's. Correct memory of a series of 14 buttons results in a win. Strict mode will ` +
       `reset the game upon any incorrect entry.`,
@@ -76,6 +95,7 @@ export default [
   },
   {
     name: 'Pomodoro Clock',
+    type: 'front',
     image: './images/Pomodoro.png',
     description: 'A simple task timer. One value sets the task time, and the other the break time. Task time and break time will ' +
       'alternate until both are exhausted.',
@@ -88,6 +108,7 @@ export default [
   },
   {
     name: 'WikiSearch',
+    type: 'front',
     image: './images/Wiki.png',
     description: 'A simple wikipedia search app. Results are generated from an entered keyword(s) and populated on the screen. Clicking ' +
       'a result will direct the user to the appropriate Wikipedia article.',
