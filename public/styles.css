@@ -372,6 +372,11 @@ h3 a {
   border: none;
 }
 
+.social {
+  font-size: 2.5rem;
+  padding: 5px;
+}
+
 footer {
   color: #fff;
   text-align: center;
@@ -383,7 +388,6 @@ footer h1 {
 }
 
 i {
-  font-size: 2.5rem;
   display: inline;
   margin: 10px;
 }
