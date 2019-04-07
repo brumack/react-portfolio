@@ -5,8 +5,8 @@ export default [
     image: './images/EMP1.png',
     slideshow: ['EMP1.png', 'EMP2.png', 'EMP3.png', 'EMP4.png'],
     description: `EMP (Employee Management Platform) is a RESTful CRUD application designed to be custom tailored to small businesses in need of
-    workforce and/or payroll management streamlining. Features will include workforce management, job/task creation, 
-    employee scheduling, messaging and payroll management. It's currently in developent.`,
+    workforce and/or payroll management streamlining. Features will include employee management, job/task creation, 
+    employee scheduling, messaging and payroll management. It's currently in development.`,
     hostIcon: 'fab fa-github',
     repo: 'https://github.com/brumack/EMP',
     tech: ['Reactjs', 'Node.js', 'Express.js', 'Javascript', 'MongoDB', 'Semantic UI', 'HTML', 'CSS'],
