@@ -19,7 +19,7 @@ class Projects extends React.Component {
   render() {
     return (
       <section>
-        <Container fluid id='projects'
+        <Container id='projects'
           className='justify-content-center'
         >
           <Row className='justify-content-center'>
