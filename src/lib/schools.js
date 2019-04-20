@@ -3,7 +3,7 @@ export default [
     name: 'Free Code Camp',
     image: './images/icons/fcc.png',
     date: '2017',
-    detail: 'Front-end Developer Certification',
+    detail: 'Front-end Developer Certification, APIs and Microservices Certification',
     description: `The FCC curriculum consisted of extensive education in HTML, CSS, Bootstrap 3, Javascript, jQuery, and scripting algorithm' +
     ' challenges. The program also involved completing several projects, some of which you'll find available in this portfolio.` +
       ` analyzed against derived key words and phrases to make trading decisions. When optimal conditions were met, trades were automatically executed on relevant exchanges and notifications sent via SMS.`
