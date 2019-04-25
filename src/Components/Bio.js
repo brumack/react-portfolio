@@ -17,10 +17,10 @@ export default props => {
               <h1>Bio</h1>
               <hr />
               <Card.Text>
-                I'm a <em>self-taught</em> full-stack web developer, specializing in Javascript and Javascript frameworks.
-                 Originally from Phoenix, AZ, I've called California home for a total of 4 years; Long Beach for 2 and a half
-                years beginning in 2010, and now Pasadena as of October of 2017. While I enjoy all aspects of development, I most
-                enjoy working with logic and data, and creating and consuming APIs.
+                I'm a self-taught full-stack developer specializing in Javascript and Javascript frameworks.
+                When I'm not writing code, I spend my time still probably writing code. I'm a technology enthusiest. I enjoy
+                pretty much anything and everything tech. Two areas I'd love to explore in the near-future are machine learning/artificial
+                intellegence and blockchain technology. Both of these are going to play a very large role in society as they continue to develop. 
               </Card.Text>
             </Card.Body>
           </Card>
