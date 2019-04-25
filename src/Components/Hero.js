@@ -7,7 +7,7 @@ const Hero = () => {
       <Row className='justify-content-center align-items-center headline'>
         <Col lg='12'>
           <h1>Bradley Rumack</h1>
-          <p>Freelance Full-Stack Developer, Los Angeles CA</p>
+          <p>Freelance Full-Stack Developer</p>
         </Col>
       </Row>
     </Jumbotron>
