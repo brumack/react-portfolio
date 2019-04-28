@@ -1,5 +1,19 @@
 export default [
   {
+    name: 'Binance API Library',
+    type: 'back',
+    image: './images/binance1.png',
+    description: `Node.js library offering fully-functional direct integration with Binance's exchange API. Binance is 
+    the leading cryptocurrency exchange. I'll be submitting the repo to NPM as a package once documentation and additional
+    error handling are added.`,
+    slideshow: ['LIB1.png'],
+    live: null,
+    hostIcon: 'fab fa-github',
+    repo: 'https://github.com/brumack/binance-api-library',
+    tech: ['Node.js'],
+    main: true
+  },
+  {
     name: 'EMP',
     type: 'full',
     image: './images/EMP1.png',
