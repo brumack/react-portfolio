@@ -5,6 +5,10 @@ export default [
     date: '2017-',
     detail: [
       {
+        type: 'text',
+        content: 'Certifications:'
+      },
+      {
         type: 'link',
         'url': 'https://www.freecodecamp.org/certification/brumack/legacy-front-end',
         content: 'Front-end Developer Certification'
