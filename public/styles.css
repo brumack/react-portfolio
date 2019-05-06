@@ -1,245 +1,244 @@
 html {
-  width: 100vw;
-  overflow-x: hidden;
+	width: 100vw;
+	overflow-x: hidden;
 }
 
 body {
-  user-select: none;
-  font-family: Lato;
-  width: 100vw;
-  overflow-x: hidden;
-  background: #000;
+	user-select: none;
+	font-family: Lato;
+	width: 100vw;
+	overflow-x: hidden;
+	background: #000;
 }
 
 .container-fluid {
-  padding: 0;
+	padding: 0;
 }
 
 nav {
-  padding: 0;
+	padding: 0;
 }
 
 i {
-  display: inline;
-  margin: 10px;
-  font-size: 2rem;
+	display: inline;
+	margin: 10px;
+	font-size: 2rem;
 }
 
 a i {
-  color: #000;
+	color: #000;
 }
 
 a i:hover {
-  color: #777
+	color: #777;
 }
 
 .navbar-light .navbar-brand {
-  font-size: 1.5rem;
-  color: #fff;
-  text-shadow: 1px 1px 5px #000;
+	font-size: 1.5rem;
+	color: #fff;
+	text-shadow: 1px 1px 5px #000;
 }
 
 .navbar-light .navbar-brand:hover {
-  color: #aaa;
+	color: #aaa;
 }
 
-
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
-  font-size: .8rem;
-  font-weight: bolder;
-  text-shadow: 1px 1px 5px #000;
+	color: #fff;
+	font-size: 0.8rem;
+	font-weight: bolder;
+	text-shadow: 1px 1px 5px #000;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #aaa;
+	color: #aaa;
 }
 
 .navbar.navbar-light {
-  background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-light .navbar-toggler {
-  border-color: #000;
-  border-width: 1px;
-} 
-
-.navbar-light .navbar-toggler:focus {
-  outline: none;
+	background-color: #fff;
+	padding-right: 10px;
 }
 
-h1, h2 {
-  font-family: Righteous;
+.navbar-light .navbar-toggler:focus {
+	outline: none;
+}
+
+h1,
+h2 {
+	font-family: Righteous;
 }
 
 h3 a {
-  float: right;
-  padding: 3px;
+	float: right;
+	padding: 3px;
 }
 
 .jumbotron {
-  height: 80vh;
-  width: 100%;
-  margin: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('./images/cityscape-1-BW.png')
+	height: 80vh;
+	width: 100%;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('./images/phoenix.jpg');
 }
 
 .headline {
-  height: 100%;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  text-align: right;
+	height: 100%;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	text-align: right;
 }
 
 .headline h1 {
-  font-size: 4.8rem;
-  margin-bottom: 0;
+	font-size: 4.8rem;
+	margin-bottom: 0;
 }
 
 .headline p {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .stack {
-  text-align: center;
-  font-size: 3rem;
-  padding: 20px 20px;
+	text-align: center;
+	font-size: 3rem;
+	padding: 20px 20px;
 }
 
 .stack img {
-  padding-bottom: 12px;
+	padding-bottom: 12px;
 }
 
 .fa-html5 {
-  color: #F15931;
+	color: #f15931;
 }
 
 .fa-css3-alt {
-  color: #007DC6;
+	color: #007dc6;
 }
 
 .fa-js {
-  color: #F58233;
+	color: #f58233;
 }
 
 .fa-react {
-  color: #60DBFB;
+	color: #60dbfb;
 }
 
 .fa-node {
-  color: #8FC53F;
+	color: #8fc53f;
 }
 
 .fa-npm {
-  color: #cb3837;
+	color: #cb3837;
 }
 
 .fa-python {
-  color: #FFE873;
+	color: #ffe873;
 }
 
 .fa-database {
-  color: #00758F;
+	color: #00758f;
 }
 
 .fa-git {
-  color: #F05033;
+	color: #f05033;
 }
 
 .fa-info-circle {
-  color: black;
+	color: black;
 }
 
 .fa-github-square {
-  color: #000;
+	color: #000;
 }
 
 .projects {
-  height: 600px;
+	height: 600px;
 }
 
 .card {
-  border: none;
+	border: none;
 }
 
 #projects {
-  padding: 3% 0;
+	padding: 3% 0;
 }
 
 .bio {
-  padding: 3% 0;
-  background-color:rgba(0,0,0,0.2)
+	padding: 3% 0;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .bio .card {
-  margin: 10px;
+	margin: 10px;
 }
 
 .bio h3 {
-  font-size: 2.5rem;
-  font-family: Righteous;
-  margin: 0;
-  text-align: center;
+	font-size: 2.5rem;
+	font-family: Righteous;
+	margin: 0;
+	text-align: center;
 }
 
 .bio h4 {
-  font-family: Righteous;
-  margin: 0;
+	font-family: Righteous;
+	margin: 0;
 }
 
 .bio h5 {
-  margin: 0;
+	margin: 0;
 }
 
 .bio p {
-  font-size: .8rem;
+	font-size: 0.8rem;
 }
 
 .bio h5 + p {
-  font-size: .75rem;
+	font-size: 0.75rem;
 }
 
 .bio hr {
-  margin: .6rem 0;
+	margin: 0.6rem 0;
 }
 
 .bio .card-text {
-  font-size: .9rem;
+	font-size: 0.9rem;
 }
 
 .bio img {
-  height: 3rem;
-  width: auto;
-  border: 3px solid black;
-  border-radius: 5px;
-  padding: 5px;
-  margin-bottom: 5px;
-  float: right;
+	height: 3rem;
+	width: auto;
+	border: 3px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+	float: right;
 }
 
 .list-group-item {
-  border: none;
+	border: none;
 }
 
 .social {
-  font-size: 2.5rem;
-  padding: 5px;
+	font-size: 2.5rem;
+	padding: 5px;
 }
 
 footer {
-  color: #fff;
-  text-align: center;
-  background-color: rgba(0,0,0,1)
+	color: #fff;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 1);
 }
 
 footer h1 {
-  margin: 0;
+	margin: 0;
 }
 
 .contact {
-  text-align: center;
+	text-align: center;
 }
-
