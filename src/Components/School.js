@@ -17,9 +17,17 @@ export default props => {
 
 function renderDetails (details) {
   return details.map(detail => {
+    if (detail.type === 'link') {
+      return (
+        <React.Fragment>
+          <a href={detail.url} target='_blank' rel="noopener noreferrer">{detail.content}</a>
+          <br />
+        </React.Fragment>
+      )
+    }
     return (
       <React.Fragment>
-        {detail}
+        {detail.content}
         <br />
       </React.Fragment>
     )
