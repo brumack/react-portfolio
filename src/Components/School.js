@@ -11,7 +11,6 @@ export default props => {
         <br />
         {renderDetails(props.detail)}
       </p>
-      <p>{props.description}</p>
     </React.Fragment>
   )
 }
