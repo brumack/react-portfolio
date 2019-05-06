@@ -17,7 +17,7 @@ export default props => {
               <h1>Bio</h1>
               <hr />
               <Card.Text>
-                I'm a self-taught full-stack developer specializing in Javascript and Javascript frameworks.
+                I'm a full-stack developer specializing in Javascript and Javascript frameworks.
                 When I'm not writing code, I spend my time still probably writing code. I'm a technology enthusiest. I enjoy
                 pretty much anything and everything tech. Two areas I'd love to explore in the near-future are machine learning/artificial
                 intellegence and blockchain technology. Both of these are going to play a very large role in society as they continue to develop. 
