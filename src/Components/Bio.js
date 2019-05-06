@@ -81,8 +81,8 @@ export default props => {
                 <br />
                 <span>480.599.5214</span>
                 <br />
-                <a href='https://www.instagram.com/angelscitydev/' id='insta' className='social' target='_blank'><i className='fab fa-lg fa-instagram' /></a>
-                <a href='https://www.instagram.com/angelscitydev/' id='linked' className='social' target='_blank'><i className='fab fa-lg fa-linkedin' /></a>
+                <a href='https://www.instagram.com/firecitydev/' id='insta' className='social' target='_blank'><i className='fab fa-lg fa-instagram' /></a>
+                <a href='https://www.linkedin.com/in/bradleyrumack/' id='linked' className='social' target='_blank'><i className='fab fa-lg fa-linkedin' /></a>
               </Card.Text>
             </Card.Body>
           </Card>
