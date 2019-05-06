@@ -9,9 +9,20 @@ export default props => {
       <p>
         {props.date}
         <br />
-        {props.detail}
+        {renderDetails(props.detail)}
       </p>
       <p>{props.description}</p>
     </React.Fragment>
   )
+}
+
+function renderDetails (details) {
+  return details.map(detail => {
+    return (
+      <React.Fragment>
+        {detail}
+        <br />
+      </React.Fragment>
+    )
+  })
 }
