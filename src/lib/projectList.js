@@ -43,10 +43,10 @@ export default [
   {
     name: 'Real Estate Agent Site',
     type: 'front',
-    image: './images/Realty.png',
+    image: './images/RE1.png',
     description: `This is an example multi-page website built for a real estate agent. I have incoprorated a few 3rd party tools, 
     such as a search portal and a social media feed, as well as created some custom financial calculators.`,
-    slideshow: ['RE1.png', 'RE2.png', 'RE3.png', 'RE4.png', 'RE5.png', 'RE6.png'],
+    slideshow: ['RE1.png', 'RE2.png', 'RE3.png', 'RE4.png', 'RE5.png'],
     live: 'https://realestatedemo-bradrumack-com.herokuapp.com/',
     hostIcon: 'fab fa-github',
     repo: null,
