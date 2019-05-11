@@ -7,9 +7,19 @@ import Bio from './Bio'
 import { Container } from 'react-bootstrap'
 
 class App extends React.Component {
+
+  state = {
+    fadeIn: false
+  }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({fadeIn: true}), 1000)
+  }
+
+
   render() {
     return (
-      <Container fluid='true'>
+      <Container fluid='true' className={this.state.fadeIn ? 'fadeIn' : 'fadeOut'}>
         <Menu />
         <Container fluid='true' className='main'>
           <Hero />
