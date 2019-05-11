@@ -9,7 +9,7 @@ body {
 	font-family: Lato;
 	width: 100vw;
 	overflow-x: hidden;
-	background: #000;
+	background: #111;
 }
 
 .fadeOut {
@@ -176,7 +176,11 @@ h3 a {
 }
 
 #projects {
-	padding: 3% 0;
+	padding: 80px;
+}
+
+#projects .card {
+	cursor: pointer;
 }
 
 .bio {

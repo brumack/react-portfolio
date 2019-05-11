@@ -19,7 +19,7 @@ class Projects extends React.Component {
   render() {
     return (
       <section>
-        <Container id='projects'
+        <Container fluid id='projects'
           className='justify-content-center'
         >
           <Row className='justify-content-center'>
@@ -30,7 +30,7 @@ class Projects extends React.Component {
                     <Card text='white'
                       style={{
                         width: '22rem',
-                        marginBottom: '1.5rem',
+                        marginBottom: '2rem',
                         textAlign: 'center'
                       }}>
                       <Card.Img src={project.image} onClick={() => this.setState({ [project.name]: true })} />
