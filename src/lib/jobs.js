@@ -3,7 +3,7 @@ export default [
     name: 'MBT One LLC, DBA Valid Strategy',
     image: './images/icons/dollar.png',
     date: 'June 2018 - October 2018',
-    detail: 'Software Developer',
+    detail: 'Contract Software Developer',
     description: 'Valid Strategy was a local fintech startup. With MBT One, I was the sole developer on a project with the goal of automatically trading financial assets via online exchanges. Strategic news sources were scraped and text' +
       ' analyzed against derived key words and phrases to make trading decisions. When optimal conditions were met, trades were automatically executed on relevant exchanges and notifications sent via SMS.'
   },
