@@ -1,6 +1,7 @@
 html {
 	width: 100vw;
 	overflow-x: hidden;
+	background-color: #111;
 }
 
 body {
@@ -9,6 +10,15 @@ body {
 	width: 100vw;
 	overflow-x: hidden;
 	background: #000;
+}
+
+.fadeOut {
+	opacity: 0;
+}
+
+.fadeIn {
+	opacity: 1;
+	transition: 3s opacity;
 }
 
 .container-fluid {
