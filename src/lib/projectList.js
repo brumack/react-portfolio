@@ -105,44 +105,44 @@ export default [
     repo: 'https://github.com/brumack/netBot',
     tech: ['Node.js', 'Express.js', 'Binance API', 'Slack API', 'Marionette'],
     main: true
-  },
-  {
-    name: 'Simon',
-    type: 'front',
-    image: './images/Simon.jpg',
-    description: `A recreation of the game Simon from the 90's. Correct memory of a series of 14 buttons results in a win. Strict mode will 
-      reset the game upon any incorrect entry.`,
-    slideshow: ['Simon1.png'],
-    live: 'https://brumack.github.io/Simon/',
-    hostIcon: 'fab fa-github',
-    repo: 'https://github.com/brumack/Simon',
-    tech: ['Javascript', 'jQuery', 'HTML', 'CSS'],
-    main: false
-  },
-  {
-    name: 'Pomodoro Clock',
-    type: 'front',
-    image: './images/Pomodoro.jpg',
-    description: `A simple task timer. One value sets the task time, and the other the break time. Task time and break time will 
-      'alternate until both are exhausted.`,
-    slideshow: ['Pomodoro1.png'],
-    live: 'https://brumack.github.io/Pomodoro-Clock/',
-    hostIcon: 'fab fa-github',
-    repo: 'https://github.com/brumack/Pomodoro-Clock',
-    tech: ['Javascript', 'jQuery', 'HTML', 'CSS'],
-    main: false
-  },
-  {
-    name: 'WikiSearch',
-    type: 'front',
-    image: './images/Wiki.jpg',
-    description: `A simple wikipedia search app. Results are generated from an entered keyword(s) and populated on the screen. Clicking 
-      a result will direct the user to the appropriate Wikipedia article.`,
-    slideshow: ['Wikisearch1.png'],
-    live: 'https://brumack.github.io/WikiSearch/',
-    hostIcon: 'fab fa-github',
-    repo: 'https://github.com/brumack/WikiSearch',
-    tech: ['Javascript', 'Wikipedia API', 'jQuery', 'HTML', 'CSS'],
-    main: false
-  }
+  }//,
+  // {
+  //   name: 'Simon',
+  //   type: 'front',
+  //   image: './images/Simon.jpg',
+  //   description: `A recreation of the game Simon from the 90's. Correct memory of a series of 14 buttons results in a win. Strict mode will 
+  //     reset the game upon any incorrect entry.`,
+  //   slideshow: ['Simon1.png'],
+  //   live: 'https://brumack.github.io/Simon/',
+  //   hostIcon: 'fab fa-github',
+  //   repo: 'https://github.com/brumack/Simon',
+  //   tech: ['Javascript', 'jQuery', 'HTML', 'CSS'],
+  //   main: false
+  // },
+  // {
+  //   name: 'Pomodoro Clock',
+  //   type: 'front',
+  //   image: './images/Pomodoro.jpg',
+  //   description: `A simple task timer. One value sets the task time, and the other the break time. Task time and break time will 
+  //     'alternate until both are exhausted.`,
+  //   slideshow: ['Pomodoro1.png'],
+  //   live: 'https://brumack.github.io/Pomodoro-Clock/',
+  //   hostIcon: 'fab fa-github',
+  //   repo: 'https://github.com/brumack/Pomodoro-Clock',
+  //   tech: ['Javascript', 'jQuery', 'HTML', 'CSS'],
+  //   main: false
+  // },
+  // {
+  //   name: 'WikiSearch',
+  //   type: 'front',
+  //   image: './images/Wiki.jpg',
+  //   description: `A simple wikipedia search app. Results are generated from an entered keyword(s) and populated on the screen. Clicking 
+  //     a result will direct the user to the appropriate Wikipedia article.`,
+  //   slideshow: ['Wikisearch1.png'],
+  //   live: 'https://brumack.github.io/WikiSearch/',
+  //   hostIcon: 'fab fa-github',
+  //   repo: 'https://github.com/brumack/WikiSearch',
+  //   tech: ['Javascript', 'Wikipedia API', 'jQuery', 'HTML', 'CSS'],
+  //   main: false
+  // }
 ]
