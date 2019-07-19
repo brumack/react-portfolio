@@ -81,11 +81,11 @@ export default [
   {
     name: 'Tetra',
     type: 'full',
-    image: './images/Tetra.jpg',
+    image: './images/Tetra4.png',
     description: `Tetra is a cryptocurrency portfolio manager. Users create their own accounts, and then add their own assets, or assets 
       they would like to track to their dashboard. Balances for each asset can be added, and then used to calculate a total portfolio balance. 
       A demo account can be accessed under demo@demo.com:demodemo.`,
-    slideshow: ['Tetra1.png', 'Tetra2.png', 'Tetra3.png', 'Tetra4.png'],
+    slideshow: ['Tetra1.png', 'Tetra2.png', 'Tetra3.png', 'Tetra4.png', 'Tetra5.png'],
     live: 'https://tetra-crypto.herokuapp.com/',
     hostIcon: 'fab fa-github',
     repo: 'https://github.com/brumack/tetra',
